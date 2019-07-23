@@ -3,7 +3,9 @@ require "date"
 
 Before do
   driver.start_driver
-  driver.manage.timeouts.implicit_wait = 40
+  driver.manage.timeouts.implicit_wait = 60
+  device_type = "android"
+  @screen = DroidScreens.new if device_type.eql?("android")
 end
 
 After do

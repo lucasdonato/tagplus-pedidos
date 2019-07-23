@@ -2,13 +2,13 @@
 
 
 Funcionalidade: Login
-    Para que eu possa fazer compras dos itens clássicos
-    Sendo um usuário cadastrado
-    Posso me autenticar pela tela de login
+    Para que eu possa fazer pedido no aplicativo
+    Sendo um usuário cadastrado ou não
+    Preciso acessar o aplicativo para autorização
 
     @login_happy
     Cenario: Usuário logado 
 
         Dado que acesso a tela de login
-        Quando eu faço login
+        Quando eu cadastro um novo usuário
         Então vejo a tela inicial do aplicativo
