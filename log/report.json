@@ -28,7 +28,7 @@
             "result": {
               "status": "failed",
               "error_message": "An unknown server-side error occurred while processing the command. Original error: The application at 'app-universal-release.apk' does not exist or is not accessible (Selenium::WebDriver::Error::UnknownError)\nUnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'app-universal-release.apk' does not exist or is not accessible\n    at getResponseForW3CError (C:\\Users\\Q4angels\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:826:9)\n    at asyncHandler (C:\\Users\\Q4angels\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:447:37)\n./features/support/hooks.rb:5:in `Before'",
-              "duration": 51258585
+              "duration": 61106597
             }
           }
         ],
@@ -75,7 +75,7 @@
             "result": {
               "status": "failed",
               "error_message": "undefined method `screenshot_as' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:12:in `After'",
-              "duration": 297647
+              "duration": 153955
             }
           }
         ]
