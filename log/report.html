@@ -34,9 +34,9 @@
 </div>
 </header>
 <div id="g0f0s0" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@login_happy</div><h5>Usuário logado (4.293s)</h5>
-features/specs/login/login.feature:10<pre>An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &#39;Command &#39;C\:\\Users\\Q4angels\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.75.101\:5555 shell pm install -g /data/local/tmp/appium_cache/12bb63270ecd4315cfaaa8d8202b809bbfccca11.apk&#39; exited with code 1&#39;; Stderr: &#39;Error: Could not access the Package Manager.Is the system running?&#39;; Code: &#39;1&#39; (Selenium::WebDriver::Error::UnknownError)
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &#39;Command &#39;C\:\\Users\\Q4angels\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.75.101\:5555 shell pm install -g /data/local/tmp/appium_cache/12bb63270ecd4315cfaaa8d8202b809bbfccca11.apk&#39; exited with code 1&#39;; Stderr: &#39;Error: Could not access the Package Manager.Is the system running?&#39;; Code: &#39;1&#39;
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@login_happy</div><h5>Usuário logado (0.052s)</h5>
+features/specs/login/login.feature:10<pre>An unknown server-side error occurred while processing the command. Original error: The application at &#39;app-universal-release.apk&#39; does not exist or is not accessible (Selenium::WebDriver::Error::UnknownError)
+UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &#39;app-universal-release.apk&#39; does not exist or is not accessible
 at getResponseForW3CError (C:\Users\Q4angels\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
 at asyncHandler (C:\Users\Q4angels\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
 ./features/support/hooks.rb:5:in `Before&#39;</pre><ul class="collection stepList"><li class="collection-item step skipped">
@@ -70,7 +70,7 @@ $(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();});
 </div><div class="col m4 s12">
 <table id="metaData" class="bordered">
 <tbody>
-<tr><th>Total Time</th><td>4.293s</td></tr><tr>
+<tr><th>Total Time</th><td>0.052s</td></tr><tr>
 <th>device</th>
 <td>Android</td>
 </tr><tr>
@@ -78,7 +78,7 @@ $(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();});
 <td>Dev</td>
 </tr><tr>
 <th>Data do Teste</th>
-<td>2019-07-23 16:18:06 -0300</td>
+<td>2019-07-23 16:34:04 -0300</td>
 </tr></tbody>
 </table>
 </div>
@@ -87,11 +87,11 @@ $(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();});
 <li class="feature broken">
 <div class="collapsible-header indigo lighten-1 waves-effect waves-light">
 <i class="material-icons">featured_play_list</i>
-<b>Funcionalidade</b>&nbsp;Login&nbsp;(4.293s)
+<b>Funcionalidade</b>&nbsp;Login&nbsp;(0.052s)
 </div><div class="collapsible-body indigo lighten-4">
 <ul class="collection scenarioList"><li class="collection-item scenario failed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s0">
-<b>Cenario</b> Usuário logado&nbsp;(4.293s)
+<b>Cenario</b> Usuário logado&nbsp;(0.052s)
 </a>
 </li></ul>
 </div>
@@ -121,7 +121,7 @@ failed
 </table></div><div id="errors" class="col s12 indigo lighten-5">
 <ul class="errorList collapsible popout" data-collapsible="expandable"><li class="error">
 <div class="collapsible-header red lighten-2 white-text waves-effect waves-light">
-<i class="material-icons">bug_report</i>An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &#39;Command &#39;C\:\\Users\\Q4angels\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.75.101\:5555 shell pm install -g /data/local/tmp/appium_cache/12bb63270ecd4315cfaaa8d8202b809bbfccca11.apk&#39; exited with code 1&#39;; Stderr: &#39;Error: Could not access the Package Manager.Is the system running?&#39;; Code: &#39;1&#39; (Selenium::WebDriver::Error::UnknownError)
+<i class="material-icons">bug_report</i>An unknown server-side error occurred while processing the command. Original error: The application at &#39;app-universal-release.apk&#39; does not exist or is not accessible (Selenium::WebDriver::Error::UnknownError)
 </div><div class="collapsible-body indigo lighten-4">
 <ul class="collection failedScenarioList"></ul>
 </div>

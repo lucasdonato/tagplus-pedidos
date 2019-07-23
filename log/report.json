@@ -27,8 +27,8 @@
             },
             "result": {
               "status": "failed",
-              "error_message": "An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\\:\\\\Users\\\\Q4angels\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe -P 5037 -s 192.168.75.101\\:5555 shell pm install -g /data/local/tmp/appium_cache/12bb63270ecd4315cfaaa8d8202b809bbfccca11.apk' exited with code 1'; Stderr: 'Error: Could not access the Package Manager.  Is the system running?'; Code: '1' (Selenium::WebDriver::Error::UnknownError)\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\\:\\\\Users\\\\Q4angels\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe -P 5037 -s 192.168.75.101\\:5555 shell pm install -g /data/local/tmp/appium_cache/12bb63270ecd4315cfaaa8d8202b809bbfccca11.apk' exited with code 1'; Stderr: 'Error: Could not access the Package Manager.  Is the system running?'; Code: '1'\n    at getResponseForW3CError (C:\\Users\\Q4angels\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:826:9)\n    at asyncHandler (C:\\Users\\Q4angels\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:447:37)\n./features/support/hooks.rb:5:in `Before'",
-              "duration": 4293128458
+              "error_message": "An unknown server-side error occurred while processing the command. Original error: The application at 'app-universal-release.apk' does not exist or is not accessible (Selenium::WebDriver::Error::UnknownError)\nUnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'app-universal-release.apk' does not exist or is not accessible\n    at getResponseForW3CError (C:\\Users\\Q4angels\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:826:9)\n    at asyncHandler (C:\\Users\\Q4angels\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:447:37)\n./features/support/hooks.rb:5:in `Before'",
+              "duration": 51258585
             }
           }
         ],
@@ -75,7 +75,7 @@
             "result": {
               "status": "failed",
               "error_message": "undefined method `screenshot_as' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:12:in `After'",
-              "duration": 206129
+              "duration": 297647
             }
           }
         ]
