@@ -3,9 +3,14 @@ require "date"
 
 Before do
   driver.start_driver
-  driver.manage.timeouts.implicit_wait = 60
+  driver.manage.timeouts.implicit_wait = 10
   device_type = "android"
   @screen = DroidScreens.new if device_type.eql?("android")
+end
+
+Before("@criar_usuario") do
+  @screen.user.create_user
+  @screen.home.home_page
 end
 
 After do

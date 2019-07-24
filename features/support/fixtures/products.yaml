@@ -1,0 +1,25 @@
+produto_1:
+  descricao: ""
+  cod_barras: ""
+  categoria: ""
+  valor: ""
+  estoque: ["Imobilizado", "Uso e consumo", "Revenda", "Mínimo revenda","Máximo revenda"]
+  imagem: ""
+
+
+produto_2:
+  descricao: ""
+  cod_barras: ""
+  categoria: ""
+  valor: ""
+  estoque: ["Imobilizado", "Uso e consumo", "Revenda", "Mínimo revenda","Máximo revenda"]
+  imagem: ""
+
+
+produto_3:
+  descricao: ""
+  cod_barras: ""
+  categoria: ""
+  valor: ""
+  estoque: ["Imobilizado", "Uso e consumo", "Revenda", "Mínimo revenda","Máximo revenda"]
+  imagem: ""
