@@ -23,7 +23,7 @@ at_exit do
   @infos = {
     "device" => "Android",
     "environment" => "Dev",
-    "Data do Teste" => Time.now.to_s
+    "Data do Teste" => Time.now.to_s,
   }
 
   ReportBuilder.configure do |config|

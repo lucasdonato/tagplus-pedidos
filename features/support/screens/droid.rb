@@ -10,5 +10,4 @@ class DroidScreens
     @products = Produtos.new
     @menu_lateral = MenuLateral.new
   end
-
 end

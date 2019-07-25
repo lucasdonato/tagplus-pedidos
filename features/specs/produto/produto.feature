@@ -4,7 +4,7 @@ Funcionalidade: Cadastro de produtos
     Para realizar pedidos devo criar produtos
     Sendo um usuário logado no aplicativo
 
-    @criar_usuario @criar_produto
+    @criar_usuario
       Esquema do Cenario: Novo produto
         O gestor do aplicativo cadastra um novo produto através do form
         e um novo registro é inserido na listagem dos produtos.
