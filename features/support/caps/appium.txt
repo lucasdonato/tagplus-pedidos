@@ -4,5 +4,5 @@ deviceName = 'VirtualDevice'
 udid = '192.168.75.101:5555'
 app = "app-universal-release.apk"
 appPackage = "com.tagplusapp"
-appActivity = ""
+appActivity = "com.tagplusapp.MainActivity"
 automationName = 'uiautomator2'

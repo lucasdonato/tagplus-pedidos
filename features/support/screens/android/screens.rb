@@ -18,12 +18,12 @@ end
 
 class Produtos
   def create_product
-    @screen.menu_lateral.menu_produtos
+    @screen.menu_lateral.go_products
   end
 end
 
 class MenuLateral
-  def menu_produtos
+  def go_products
     find_element(class: "android.widget.TextView").click
     find_elements(class: "android.widget.TextView").text("Produtos").click
     find_elements(class: "android.widget.TextView")[3].click

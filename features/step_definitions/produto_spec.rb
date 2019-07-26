@@ -4,6 +4,7 @@ Dado("que {string} é um novo produto") do |product_code|
 end
 
 Quando("eu faço o cadastro deste produto") do
+  puts @screen.class
   @screen.products.create_product
 end
 
