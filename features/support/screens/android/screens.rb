@@ -5,12 +5,6 @@ class User
     find_element(class: "android.widget.EditText").send_keys(user)
     find_elements(class: "android.widget.TextView").text("CRIAR PERFIL").click
   end
-
-  def empty_user
-    find_element(xpath: "//*[@text='Criar Perfil']").click
-    find_element(class: "android.widget.EditText").send_keys("")
-    find_elements(class: "android.widget.TextView").text("CRIAR PERFIL").click
-  end
 end
 
 class HomePageLogin
