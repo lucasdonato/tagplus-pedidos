@@ -1,15 +1,20 @@
 #language: pt
 
+@usuario
+Funcionalidade: Cadastrar Usuário
+        Para que eu possa fazer pedidos e cadastros no aplicativo
+        Preciso cadastrar um usuario antes de entrar no aplicativo
 
-Funcionalidade: Acessar aplicativo sem login
-    Para que eu possa fazer pedidos e cadastros no aplicativo
-    Sendo um usuário cadastrado
-    Preciso entrar no aplicativo
-
-    Cenario: Criar usuário
+        Contexto: Acessar login
         Dado que acesso a tela de login
-        Quando eu cadastro um novo usuário
-        Então vejo a tela inicial do aplicativo
 
-    #implementar
-    #Cenário: Dados obritórios
+     Esquema do Cenario: Tentar cadastrar usuário
+        Quando cadastro um usuário com <usuario>
+        Então devo ver <mensagem> como popup
+
+    Exemplos: 
+        | usuario                   | mensagem                         |
+        | "Lucas Donato"            | "Perfil cadastrado com sucesso!" |
+        | ""                        | "Insira o nome do perfil"        |
+
+

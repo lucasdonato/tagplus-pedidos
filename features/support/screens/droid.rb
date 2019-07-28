@@ -10,4 +10,8 @@ class DroidScreens
     @products = Produtos.new
     @menu_lateral = MenuLateral.new
   end
+
+  def popup
+    find_element(id: "android:id/alertTitle")
+  end
 end

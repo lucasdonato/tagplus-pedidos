@@ -9,7 +9,7 @@ Before do
 end
 
 Before("@criar_usuario") do
-  @screen.user.create_user
+  @screen.user.create_user("Lucas Donato")
   @screen.home.home_page
 end
 
@@ -30,7 +30,7 @@ at_exit do
     config.input_path = "log/report.json"
     config.report_path = "log/report"
     config.report_types = [:html]
-    config.report_title = "Pixel Mobile"
+    config.report_title = "Tagplus Pedidos"
     config.additional_info = @infos
     config.color = "indigo"
   end

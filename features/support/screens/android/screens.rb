@@ -1,10 +1,15 @@
 
 class User
-  def create_user
+  def create_user(user)
     find_element(xpath: "//*[@text='Criar Perfil']").click
-    find_element(class: "android.widget.EditText").send_keys("Lucas Donato")
+    find_element(class: "android.widget.EditText").send_keys(user)
     find_elements(class: "android.widget.TextView").text("CRIAR PERFIL").click
-    find_element(id: "android:id/alertTitle")
+  end
+
+  def empty_user
+    find_element(xpath: "//*[@text='Criar Perfil']").click
+    find_element(class: "android.widget.EditText").send_keys("")
+    find_elements(class: "android.widget.TextView").text("CRIAR PERFIL").click
   end
 end
 
@@ -18,7 +23,6 @@ end
 
 class Produtos
   def create_product
-    @screen.menu_lateral.go_products
   end
 end
 
