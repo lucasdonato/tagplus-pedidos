@@ -17,6 +17,8 @@ end
 
 class Produtos
   def create_product
+    #driver.elementByCustom ('ai: Descrição');
+    driver.findElement(MobileBy.custom("ai:Categoria"))
   end
 end
 

@@ -1,7 +1,7 @@
 [caps]
 platformName = "Android"
 deviceName = 'VirtualDevice'
-udid = '192.168.179.101:5555'
+udid = '192.168.75.101:5555'
 app = "app-universal-release.apk"
 appPackage = "com.tagplusapp"
 appActivity = "com.tagplusapp.MainActivity"

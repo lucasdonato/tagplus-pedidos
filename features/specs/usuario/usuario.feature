@@ -5,10 +5,8 @@ Funcionalidade: Cadastrar Usuário
         Para que eu possa fazer pedidos e cadastros no aplicativo
         Preciso cadastrar um usuario antes de entrar no aplicativo
 
-        Contexto: Acessar login
-        Dado que acesso a tela de login
-
      Esquema do Cenario: Tentar cadastrar usuário
+        Dado que acesso a tela de login
         Quando cadastro um usuário com <usuario>
         Então devo ver <mensagem> como popup
 

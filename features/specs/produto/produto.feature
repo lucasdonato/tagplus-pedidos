@@ -1,5 +1,6 @@
 #language: pt
 
+@criar_produto
 Funcionalidade: Cadastro de produtos
     Para realizar pedidos devo criar produtos
     Sendo um usuário logado no aplicativo
